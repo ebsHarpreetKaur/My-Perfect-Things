@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "MPT",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/myperfectthingslogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ebullientsoft.myapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ic_launcher_foreground.png"
+      },
+      "package": "com.ebullientsoft.myapp",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ee7e4a6-4216-47fe-be03-672de871b9d7"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-4827503647379875~3918659511"
+  }
+}
